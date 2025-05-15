@@ -5,19 +5,19 @@ let router = express.Router();
 const pino = require("pino");
 const { Boom } = require("@hapi/boom");
 const MESSAGE = process.env.MESSAGE || `
-*SESSION GENERATED SUCCESSFULLY* ✅
+*MUQEET-MD-SESSION-2 GENERATED SUCCESSFULLY* ✅
 
 *Gɪᴠᴇ ᴀ ꜱᴛᴀʀ ᴛᴏ ʀᴇᴘᴏ ꜰᴏʀ ᴄᴏᴜʀᴀɢᴇ* 🌟
-https://github.com/GuhailTechInfo/MEGA-AI
+https://github.com/muqeet908/MUQEET-MD
 
 *Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ꜰᴏʀ ϙᴜᴇʀʏ* 💭
-https://t.me/Global_TechInfo
-https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07
+https://t.me@Muqeet656
+https://chat.whatsapp.com/CVQHESIID3wLeUW7GZWrBs
 
 *Yᴏᴜ-ᴛᴜʙᴇ ᴛᴜᴛᴏʀɪᴀʟꜱ* 🪄 
-https://youtube.com/GlobalTechInfo
+https://youtube.com/IsagiTroll
 
-*MEGA-AI--WHATSAPP* 🥀
+*MUQEET-MD-WHATSAPP* 🥀
 `;
 
 const uploadToPastebin = require('./Paste');  // Assuming you have a function to upload to Pastebin
